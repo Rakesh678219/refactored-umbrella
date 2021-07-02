@@ -8,7 +8,7 @@ import time
 # import os
 # os.environ['CUDA_VISIBLE_DEVICES'] = "0"
 from multiapp import MultiApp
-from apps import home, test, foods, harmful_foods, project_credits
+from apps import home, test, foods, harmful_foods
 
 app = MultiApp()
 app.add_app("Home", home.app)
