@@ -15,7 +15,7 @@ app.add_app("Home", home.app)
 app.add_app("Eye Checkup", test.app)
 app.add_app("Healthy foods for eyes", foods.app)
 app.add_app("Foods that are bad for eyes", harmful_foods.app)
-app.add_app("Contact Page and Project Credits", project_credits.app)
+# app.add_app("Contact Page and Project Credits", project_credits.app)
 app.run()
 
 st.markdown(
